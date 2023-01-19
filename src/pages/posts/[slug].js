@@ -70,9 +70,7 @@ export default function BlogPost({post}){
                 <h6>
                     By {post.author.name}
                 </h6>
-                <h6 className={styles.date}>
-                    {post.datePublished}
-                </h6>
+                
 
                </div>
 
